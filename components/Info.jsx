@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../images/profile.png";
+import email from "../images/email.png";
 
 export default function Info() {
   return (
@@ -9,7 +10,7 @@ export default function Info() {
       <p>Frontend Developer</p>
       <a href="#">laurasmith.website</a>
       <a href="#" className="btn">
-        <img src="images\email.png" />
+        <img src={email} alt="email" />
         Email
       </a>
     </div>

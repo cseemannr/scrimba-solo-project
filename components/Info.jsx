@@ -1,9 +1,10 @@
 import React from "react";
+import profile from "../images/profile.png";
 
 export default function Info() {
   return (
     <div className="info">
-      <img src="images\profile.png" />
+      <img src={profile} alt="profile" />
       <h1>Laura Smith</h1>
       <p>Frontend Developer</p>
       <a href="#">laurasmith.website</a>

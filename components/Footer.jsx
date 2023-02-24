@@ -1,11 +1,12 @@
 import React from "react";
+import twitter from "../images/twitter";
 
 export default function Footer() {
   return (
     <footer>
       <div className="footer-links container">
         <a href="#">
-          <img src="images\twitter.png"></img>
+          <img src={twitter}></img>
         </a>
         <a href="#">
           <img src="images\facebook.png"></img>
